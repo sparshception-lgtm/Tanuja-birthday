@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Happy Birthday Tanuja 🎂</title>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0;font-family:"Poppins",Arial,sans-serif;}
+
+  body{
+    background:radial-gradient(circle at top,#ffd1f0,#ff9bc8,#ff7db8,#ff5fa8);
+    min-height:100vh;display:flex;justify-content:center;align-items:center;padding:20px;
+  }
+
+  .container{
+    background:#fff;width:100%;max-width:440px;padding:24px;border-radius:22px;
+    box-shadow:0 16px 32px rgba(0,0,0,0.25);
+  }
+  h1{text-align:center;color:#c2185b;margin-bottom:6px;}
+  .sub{text-align:center;font-size:.85rem;color:#7a3552;margin-bottom:14px;}
+
+  details{
+    background:#ffe3f1;margin:12px 0;border-radius:16px;border:1px solid #ffc4e2;
+    overflow:hidden;transition:.3s;
+  }
+  details[open]{background:#ffd5ec;transform:translateX(4px);box-shadow:0 6px 16px rgba(0,0,0,0.2);}
+
+  summary{
+    padding:12px 14px;cursor:pointer;display:flex;align-items:center;gap:8px;list-style:none;font-weight:600;
+  }
+  summary::-webkit-details-marker{display:none;}
+
+  .arrow{
+    width:18px;height:18px;border:2px solid #ff7fb9;border-radius:50%;
+    display:flex;align-items:center;justify-content:center;
+    font-size:10px;background:#ffe1f0;transition:.3s;
+  }
+  details[open] .arrow{transform:rotate(90deg);background:#ff7fb9;color:#fff;}
+
+  .layer-body{
+    padding:0 14px 14px;margin-top:4px;opacity:0;max-height:0;
+    transform:translateX(-15px);
+    transition:max-height .35s ease,opacity .35s ease,transform .35s ease;
+    font-size:0.9rem;color:#4e2540;line-height:1.45;
+  }
+  details[open] .layer-body{opacity:1;max-height:500px;transform:translateX(0);}
+
+  .img-wrap{margin-top:6px;border-radius:12px;overflow:hidden;}
+  img{width:100%;display:block;border-radius:12px;}
+</style>
+</head>
+
+<body>
+<div class="container">
+  <h1>Happy Birthday 🎀</h1>
+ 
+
+ <!-- LAYER 1 -->
+<details>
+  <summary><div class="arrow">▶</div> Start here 💌</summary>
+  <div class="layer-body" style="max-height:none;">
+    Hey Tanu<br>
+    You're officially what idk hehe<br><br>
+
+    <div class="img-wrap" style="margin-bottom:14px;">
+      <img src="image1.jpg">
+    </div>
+
+    When you admire the sky, you call it beautiful,<br>
+    but I think the sky reflects our feelings.<br><br>
+    The more beautiful the sky looks,<br>
+    the more beautiful your inner world is.
+  </div>
+</details>
+
+  <!-- LAYER 2 -->
+  <details>
+    <summary><div class="arrow">▶</div> Not yet 🐾</summary>
+    <div class="layer-body">
+      Okay okay, you came this far. Proud of you 👀<br>
+      If life was anime, this was the part where main character realises they're important ✨
+    </div>
+  </details>
+
+  <!-- LAYER 3 -->
+  <details>
+    <summary><div class="arrow">▶</div> Almost there 😌</summary>
+    <div class="layer-body">
+      also proved you're low-key a bit of confused softie
+    </div>
+  </details>
+
+  <!-- LAYER 4 -->
+  <details>
+    <summary><div class="arrow">▶</div> Final spell 🎂</summary>
+    <div class="layer-body">
+      Happy Birthday Tanuja Crazy "shugran"<br>
+      Maharashtrian baddie I'm genuinely glad you exist<br>
+      this year. Hope this year gives you more laughter,<br>
+      less stress, and moments that make you say...<br>
+      "life is cute." ✨<br><br>
+
+      <div class="img-wrap"><img src="image2.jpg"></div>
+    </div>
+  </details>
+
+</div>
+</body>
+</html>
